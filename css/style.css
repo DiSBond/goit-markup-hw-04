@@ -517,10 +517,14 @@ a {
 .p-nav-item + .p-nav-item {
   margin-left: 8px;
 }
-.p-button.current {
+.p-button.current-button {
   color: var(--main-basic-white);
   background-color: var(--accent-color);
 }
+.current-button {
+  color: var(--accent-color);
+}
+
 .p-button:hover,
 .p-button:focus {
   color: var(--main-basic-white);
@@ -587,7 +591,7 @@ a {
   top: 0;
   left: 0;
 
-  opacity: 1;
+  opacity: 0;
 }
 .works-img {
   display: block;
@@ -609,7 +613,7 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
 
-  opacity: 1;
+  opacity: 0;
 }
 /* -------------------BACKDROP------------------- */
 
